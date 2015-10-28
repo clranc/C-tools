@@ -17,6 +17,7 @@ void *emalloc(size_t size, char *errmsg){
         fprintf(stderr, "\n%s\n", errmsg);
         exit(12);
     }
+    return val;
 }
 /*realloc with memory error check*/
 void *erealloc(void *ptr, size_t size, char *errmsg){
@@ -25,6 +26,7 @@ void *erealloc(void *ptr, size_t size, char *errmsg){
         fprintf(stderr, "\n%s\n", errmsg);
         exit(12);
     }
+    return val;
 }
 /*caloc with memory error check*/
 void *ecalloc(size_t nitems, size_t size, char *errmsg){
@@ -33,4 +35,5 @@ void *ecalloc(size_t nitems, size_t size, char *errmsg){
         fprintf(stderr, "\n%s\n", errmsg);
         exit(12);
     }
+    return val;
 }

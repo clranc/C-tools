@@ -1,9 +1,9 @@
 /*******************************************************************            
  Author: Chris Ranc                                                             
- memtools.h : v1.0                                                          
+ memtools.c : v1.0                                                          
  license : GPL v2.0                                                             
 
-    Memory realted tools to do error checking for                 
+    Memory related tools to do error checking for                 
  when allocating or reallocating memory.                                        
 
 ********************************************************************/
